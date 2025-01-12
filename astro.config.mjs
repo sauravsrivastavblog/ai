@@ -16,6 +16,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://sauravsrivastavblog.github.io',
-	base: '/blog',
+	base: '/ai',
 	integrations: [mdx(), sitemap()],
 });
